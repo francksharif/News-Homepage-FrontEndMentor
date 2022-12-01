@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>News Homepage</title>
+  </head>
+  <body class="relative">
+    <!--Navigation Bar-->
+    <nav class="container mx-auto py-6 px-4">
+      <div class="flex items-center justify-between">
+        <!--Logo-->
+        <a href="#"><img src="images/logo.svg" alt="" /></a>
+        <!--Menu -->
+        <div
+          class="hidden justify-between space-x-10 lg:flex third-color font-semibold lg:text-lg"
+        >
+          <a href="#" class="item-hover">Home</a>
+          <a href="#" class="item-hover">New</a>
+          <a href="#" class="item-hover">Popular</a>
+          <a href="#" class="item-hover">Trending</a>
+          <a href="#" class="item-hover">Categories</a>
+        </div>
+
+        <img src="images/icon-menu.svg" alt="" id="open-btn" class=" md:hidden cursor-pointer" />
+      </div>
+         <!--Mobile menu -->
+
+         <div id="mobileMenu" class="relative z-40 hidden">
+           <!--Button-->
+          
+        
+          <!--Menu -->
+          <div class="flex flex-col text-xl space-y-6 absolute mt-10 pt-48  -right-32 -top-32 dark p-10 font-semibold z-40 bgm-white h-screen w-2/3 ">
+            <a href="#" class="item-hover">Home</a>
+            <a href="#" class="item-hover">New</a>
+            <a href="#" class="item-hover">Popular</a>
+            <a href="#" class="item-hover">Trending</a>
+            <a href="#" class="item-hover">Categories</a>
+
+            <!--Button-->
+            <div class="absolute top-6 left-10">
+              <img src="images/icon-menu-close.svg" id="close-btn" alt="" class="cursor-pointer">
+            </div>
+            
+
+
+          </div>
+         </div>
+
+       
+    
+
+    </nav>
+
+ 
+    <!--News Section-->
+
+    <section id="news" class="lg:flex lg:space-x-8 container mx-auto py-6 px-6 lg:mb-40 mb-2">
+      <!--Main section-->
+      <main class="lg:w-3/4">
+        <!--Container-->
+        <div>
+          <img src="images/image-web-3-mobile.jpg" alt="" class="lg:hidden" />
+          <img
+            src="images/image-web-3-desktop.jpg"
+            alt=""
+            class="hidden lg:block"
+         
+          />
+        </div>
+
+        <!--Content-->
+        <div class="lg:flex lg:space-x-10 ">
+          <!--Container-->
+          <div class="my-8 lg:w-1/3">
+            <h2 class="dark text-5xl font-bold mb-4 mg:text-4xl lg:text-6xl ">
+              The Bright Future of Web 3.0?
+            </h2>
+            </div>
+
+            <div class="my-8 lg:flex lg:px-10 lg:flex-col lg:w-2/3">
+              <p class="third-color text-xl lg:text-2xl">
+                We dive into the next evolution of the web that claims to put
+                power of the platforms back into the hands of the people.But it
+                is really fulfilling its promise?
+              </p>
+
+              <div class="my-9">
+                <a
+                  href="#"
+                  class="white second-color px-9 py-4 uppercase font-bold tracking-widest btn-bg"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!--Aside Section-->
+      <aside class="lg:w-1/3" >
+        <!--Container-->
+        <div class="bg-color p-4 pt-12 lg:px-8 mt-24 lg:mt-0 lg:mx-0 h-full">
+          <h2 class="first-color text-4xl font-semibold mb-8 lg:text-5xl">New</h2>
+
+          <!--Block 1-->
+          <div class="white my-6">
+            <h3 class="font-semibold text-xl lg:text-2xl mb-2"><a href="#" class="item-hover">Hydrogen VS Electric Cars</a></h3>
+            <p class="grayish mb-4 lg:text-xl ">Will hydrogen-fueled cars ever catch up to EVs? </p>
+          </div>
+          <!--Line -->
+          <div class="line-color my-10"></div>
+
+          <!--Block 2-->
+          <div class="white my-6">
+            <h3 class="font-semibold text-xl lg:text-2xl mb-2"><a href="#" class="item-hover"> The Downsides of AI Artistry</a></h3>
+            <p class="grayish mb-4 lg:text-xl">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <!--Line -->
+          <div class="line-color my-10"></div>
+
+          <!--Block 3-->
+          <div class="white my-6">
+            <h3 class="font-semibold text-xl lg:text-2xl mb-2"><a href="#" class="item-hover">Is VC Funding Drying Up?</a> </h3>
+            <p class="grayish mb-4 lg:text-xl">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!---Features Section-->
+    <section id="features">
+      <!--Container-->
+      <div class="container mx-auto p-6 flex flex-col lg:flex-row lg:space-x-10">
+        <!--Feature -1-->
+        <div class="flex space-x-4 mb-10">
+          <!--Image-->
+        
+            <img src="images/image-retro-pcs.jpg" class="" alt="" />
+   
+          <!--Content-->
+          <div class="lg:w-2/3">
+            <h1 class="text-4xl grayish font-bold mb-3 lg:text-5xl">01</h1>
+            <h3><a href="#" class="text-xl dark font-bold item-hover lg:text-2xl">Reviving Retro PCs</a> </h3>
+            <p class="third-color text-lg mt-3 lg:text-xl">What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+
+        <!--Feature -2-->
+        <div class="flex space-x-4 mb-10">
+          <!--Image-->
+        
+            <img src="images/image-top-laptops.jpg" alt=""  />
+    
+          <!--Content-->
+          <div class="lg:w-2/3">
+            <h1 class="text-4xl grayish font-bold mb-3 lg:text-5xl" >02</h1>
+            <h3> <a href="#" class="text-xl dark font-bold item-hover lg:text-2xl ">Top 10 Laptops of 2022</a></h3>
+            <p class="third-color text-lg mt-3 lg:text-xl">Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+
+        <!--Feature -3-->
+        <div class="flex space-x-4 mb-10">
+          <!--Image-->
+    
+            <img src="images/image-gaming-growth.jpg" alt="" height="200px" />
+   
+          <!--Content-->
+          <div class=" lg:w-2/3">
+            <h1 class="text-4xl grayish font-bold mb-3 lg:text-5xl">03</h1>
+            <h3> <a href="#" class="text-xl dark font-bold item-hover lg:text-2xl">The Growth of Gaming</a></h3>
+            <p class="third-color text-lg mt-3 lg:text-xl">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="voile"  class=" hidden absolute left-0 top-0 right-0 bottom-0 bg-color z-35 opacity-60"></div>
+
+    <!--Script-->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,49 @@
+.body-font {
+  font-family: "Inter", sans-serif;
+}
+
+.first-color {
+  color: hsl(35, 77%, 62%);
+}
+
+.second-color {
+  background-color: hsl(5, 85%, 63%);
+}
+
+.third-color {
+  color: hsl(236, 13%, 42%);
+}
+
+.grayish {
+  color: hsl(233, 8%, 79%);
+}
+
+.dark {
+  color: hsl(240, 100%, 5%);
+}
+
+.btn-bg:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.bg-color {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.white {
+  color: hsl(36, 100%, 99%);
+}
+
+.bgm-white {
+  background-color: hsl(36, 100%, 99%);
+}
+
+.item-hover:hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.line-color {
+  background-color: hsl(236, 13%, 42%);
+  height: 1px;
+  width: 100%;
+}
